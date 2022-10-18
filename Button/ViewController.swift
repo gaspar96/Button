@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         helloWorldLabel.isHidden = true
         showTextButton.layer.cornerRadius = 10
-        helloWorldLabel.textColor = .red
+        helloWorldLabel.textColor = .gray
     }
 
     @IBAction func showTextButtonPressed() {
